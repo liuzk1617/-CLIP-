@@ -1,0 +1,33 @@
+# ===== 数据与模型（体积过大，不入库）=====
+data/
+models/
+*.zip
+*.parquet
+
+# ===== 本地环境 =====
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 缓存与中间产物 =====
+logs/
+results/feats/
+results/demo_img_feats_*.npz
+results/*_ckpt/
+results/*.pt
+*.log
+
+# ===== 工具临时目录 =====
+.dsh-office-*/
+
+# ===== 系统文件 =====
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ===== 课程原始资料（老师提供的 PPT 照片，含同学影像，不入库）=====
+作业要求/
+
+# ===== Office 临时锁文件 =====
+~$*

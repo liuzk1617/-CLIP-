@@ -1,0 +1,67 @@
+{
+  "dataset": "Products-10K (nyris/products-10k-v1)",
+  "n_train": 141931,
+  "n_test": 55376,
+  "n_classes": 9691,
+  "method": "frozen Chinese-CLIP ViT-B/16 features + linear probe",
+  "full": {
+    "top1": 20.69,
+    "top5": 35.99,
+    "train_sec": 11.9,
+    "peak_vram_gb": 0.65,
+    "trainable_params": 4971483
+  },
+  "long_tail": {
+    "Q1(最少20%)": {
+      "n_classes": 1784,
+      "mean_acc": 0.0
+    },
+    "Q2": {
+      "n_classes": 2088,
+      "mean_acc": 0.43
+    },
+    "Q3": {
+      "n_classes": 1683,
+      "mean_acc": 7.11
+    },
+    "Q4": {
+      "n_classes": 2017,
+      "mean_acc": 25.6
+    },
+    "Q5(最多20%)": {
+      "n_classes": 2119,
+      "mean_acc": 59.67
+    }
+  },
+  "few_shot": {
+    "1": {
+      "train_samples": 9691,
+      "n_classes": 9691,
+      "test_samples": 55376,
+      "top1": 15.13,
+      "top5": 29.26
+    },
+    "5": {
+      "train_samples": 39535,
+      "n_classes": 7907,
+      "test_samples": 47441,
+      "top1": 39.15,
+      "top5": 62.71
+    },
+    "10": {
+      "train_samples": 58190,
+      "n_classes": 5819,
+      "test_samples": 34913,
+      "top1": 50.06,
+      "top5": 74.28
+    },
+    "20": {
+      "train_samples": 54860,
+      "n_classes": 2743,
+      "test_samples": 16457,
+      "top1": 64.09,
+      "top5": 87.6
+    }
+  },
+  "note": "无类目名称 → 无法做零样本分类，本表仅反映特征可分性与可训练性"
+}

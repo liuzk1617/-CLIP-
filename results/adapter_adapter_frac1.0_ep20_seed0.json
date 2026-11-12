@@ -1,0 +1,26 @@
+{
+  "method": "adapter",
+  "fraction": 1.0,
+  "epochs": 20,
+  "bs": 1024,
+  "lr": 0.001,
+  "hidden": 128,
+  "seed": 0,
+  "trainable_params": 263424,
+  "pairs_total": 250314,
+  "pairs_used": 250314,
+  "t2i": {
+    "R@1": 51.4,
+    "R@5": 77.96,
+    "R@10": 85.44
+  },
+  "t2i_MR": 71.6,
+  "i2t": {
+    "R@1": 40.14,
+    "R@5": 69.48,
+    "R@10": 79.21
+  },
+  "i2t_MR": 62.94,
+  "train_sec": 13.1,
+  "peak_vram_gb": 1.0
+}

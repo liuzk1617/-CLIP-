@@ -1,0 +1,38 @@
+{
+  "base": {
+    "n_params": 188262913,
+    "trainable": 188262913,
+    "img_bs1_ms": 12.2,
+    "img_bs1_ips": 81.9,
+    "img_bs8_ms": 13.25,
+    "img_bs8_ips": 603.6,
+    "img_bs32_ms": 65.79,
+    "img_bs32_ips": 486.4,
+    "text_bs5_ms": 16.28,
+    "peak_vram_gb": 0.54
+  },
+  "lora": {
+    "n_params": 189295105,
+    "trainable": 0,
+    "overhead_params": 1032192,
+    "img_bs1_ms": 18.93,
+    "img_bs1_ips": 52.8,
+    "img_bs8_ms": 33.49,
+    "img_bs8_ips": 238.9,
+    "img_bs32_ms": 86.75,
+    "img_bs32_ips": 368.9,
+    "text_bs5_ms": 17.76,
+    "peak_vram_gb": 0.54
+  },
+  "lora_merged": {
+    "n_params": 188262913,
+    "img_bs1_ms": 8.03,
+    "img_bs1_ips": 124.5,
+    "img_bs8_ms": 12.71,
+    "img_bs8_ips": 629.7,
+    "img_bs32_ms": 59.97,
+    "img_bs32_ips": 533.6,
+    "text_bs5_ms": 7.16,
+    "peak_vram_gb": 0.54
+  }
+}

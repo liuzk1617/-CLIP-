@@ -1,0 +1,26 @@
+{
+  "method": "linear",
+  "fraction": 0.01,
+  "epochs": 10,
+  "bs": 1024,
+  "lr": 0.001,
+  "hidden": 128,
+  "seed": 0,
+  "trainable_params": 525312,
+  "pairs_total": 250314,
+  "pairs_used": 2503,
+  "t2i": {
+    "R@1": 52.04,
+    "R@5": 76.58,
+    "R@10": 84.52
+  },
+  "t2i_MR": 71.05,
+  "i2t": {
+    "R@1": 39.92,
+    "R@5": 67.67,
+    "R@10": 77.21
+  },
+  "i2t_MR": 61.6,
+  "train_sec": 0.6,
+  "peak_vram_gb": 1.0
+}

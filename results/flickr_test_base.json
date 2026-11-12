@@ -1,0 +1,21 @@
+{
+  "dataset": "Flickr30k-CN",
+  "split": "test",
+  "lora": null,
+  "n_images": 1000,
+  "n_texts": 5000,
+  "t2i": {
+    "R@1": 62.3,
+    "R@5": 86.56,
+    "R@10": 92.66
+  },
+  "t2i_MR": 80.51,
+  "i2t": {
+    "R@1": 74.3,
+    "R@5": 93.0,
+    "R@10": 97.0
+  },
+  "i2t_MR": 88.1,
+  "encode_sec": 5.7,
+  "peak_vram_gb": 0.99
+}

@@ -1,0 +1,22 @@
+# 注意：torch / torchvision 必须从 cu128 索引安装（Blackwell sm_120 架构），
+# 且安装前需清空环境变量 UV_DEFAULT_INDEX，否则会解析到 CPU 轮子：
+#   uv pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+torchvision==0.26.0
+numpy==2.5.2
+pandas==3.1.0
+pillow==12.3.0
+transformers==5.21.0
+peft==0.21.2
+huggingface-hub==2.3.0
+tokenizers==0.23.3
+safetensors==0.8.0
+scikit-learn==1.9.1
+lmdb==3.0.0
+matplotlib==3.11.2
+pyarrow==26.0.0
+tqdm==4.70.1
+
+# 生成报告 / PPT / 答辩手册（可用系统级 python-docx / python-pptx 替代）
+# python-docx==1.2.0
+# python-pptx==1.0.2
